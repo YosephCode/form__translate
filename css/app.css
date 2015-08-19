@@ -99,6 +99,9 @@
   background-color: #109ACF;
   margin-top: 10px;
 }
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+	opacity:0.25;
+}
 .db-main-page .db-main-content .db-form .db-box {
 	  height: auto;
     display: none;
