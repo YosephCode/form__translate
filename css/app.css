@@ -88,7 +88,6 @@
 }
 .db-main-page .db-main-content .db-form a:hover, .db-main-page .db-main-content .db-form a:focus {
 	text-decoration: none;
-	outline: none;
 }
 .db-main-page .db-main-content .db-button-submit {
   border-top: 1px solid #AB8B10;
