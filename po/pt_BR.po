@@ -56,10 +56,6 @@ msgstr "Cpf obrigatório"
 msgid "E-mail:"
 msgstr "Email:"
 
-#: index.html:143
-msgid "Edit data"
-msgstr "Editar dados"
-
 #: index.html:57
 msgid "Email required."
 msgstr "Email obrigatório"
@@ -120,6 +116,10 @@ msgstr "Nome:"
 msgid "Nationality:"
 msgstr "Nacionalidade:"
 
+#: index.html:143
+msgid "New registration"
+msgstr "Novo cadastro"
+
 #: index.html:135
 msgid "Note"
 msgstr "Observação:"
@@ -167,6 +167,9 @@ msgstr "CEP é obrigatório"
 #: index.html:99
 msgid "Zip Code:"
 msgstr "CEP:"
+
+#~ msgid "Edit data"
+#~ msgstr "Editar dados"
 
 #~ msgid "Enter your password"
 #~ msgstr "Digite sua senha"

@@ -48,10 +48,6 @@ msgstr ""
 msgid "E-mail:"
 msgstr ""
 
-#: index.html:143
-msgid "Edit data"
-msgstr ""
-
 #: index.html:57
 msgid "Email required."
 msgstr ""
@@ -110,6 +106,10 @@ msgstr ""
 
 #: index.html:63
 msgid "Nationality:"
+msgstr ""
+
+#: index.html:143
+msgid "New registration"
 msgstr ""
 
 #: index.html:135

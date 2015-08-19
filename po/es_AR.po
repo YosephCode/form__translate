@@ -56,10 +56,6 @@ msgstr "Documento es obligatorio"
 msgid "E-mail:"
 msgstr "Correo electrónico:"
 
-#: index.html:143
-msgid "Edit data"
-msgstr "Editar datos"
-
 #: index.html:57
 msgid "Email required."
 msgstr "Correo es obligatorio"
@@ -120,6 +116,10 @@ msgstr "Nombre:"
 msgid "Nationality:"
 msgstr "Nacionalidad:"
 
+#: index.html:143
+msgid "New registration"
+msgstr "Nuevo registro"
+
 #: index.html:135
 msgid "Note"
 msgstr "Nota:"
@@ -167,6 +167,9 @@ msgstr "Código postal es obligatorio"
 #: index.html:99
 msgid "Zip Code:"
 msgstr "Código postal"
+
+#~ msgid "Edit data"
+#~ msgstr "Editar datos"
 
 #~ msgid "Enter your password"
 #~ msgstr "Introduzca su contraseña"
