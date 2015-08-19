@@ -59,6 +59,8 @@ app.controller("mainController", function($scope, $http, gettextCatalog){
 
 	$scope.sendData = function(){
 		$scope.sent = !$scope.sent;
+		var myEl = angular.element( document.querySelector( '.jumbotron.success' ) );
+		myEl.removeClass('hidden'); 
 	};
 
 	/* Control of nationalities and countries */
