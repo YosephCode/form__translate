@@ -140,7 +140,7 @@
 					<button type="button" ng-if="!sent" ng-click="sendData()" class="db-submit btn btn-primary btn-lg pull-right" ng-disabled="!(info.name && info.email && info.birth && cpf && info.nationality) 
 							&& !(address.country && address.state && address.city && address.zip)"
 							translate>Submit</button>
-					<button type="button" ng-if="sent" onClick="window.location.reload()" class="db-submit btn btn-info btn-lg pull-right" translate>New registration</button>
+					<button type="button" ng-if="sent" onClick="window.location.reload()" class="db-submit hidden btn btn-info btn-lg pull-right" translate>New registration</button>
 				</section>
 			</article>
 		</article>
