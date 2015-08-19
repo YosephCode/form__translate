@@ -59,8 +59,8 @@ app.controller("mainController", function($scope, $http, gettextCatalog){
 
 	$scope.sendData = function(){
 		$scope.sent = !$scope.sent;
-		var jumb = angular.element( document.querySelector( '.jumbotron.success' ) );
-		var sbmt = angular.element( document.querySelector( '.db-submit.success' ) );
+		var jumb = angular.element( document.querySelector( '#jumbSuccess' ) ),
+		    sbmt = angular.element( document.querySelector( '#newReg' ) );
 		jumb.removeClass('hidden');
 		sbmt.removeClass('hidden');
 	};
