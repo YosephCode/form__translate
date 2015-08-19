@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: index.html:122
+msgid "-- Select a City --"
+msgstr ""
+
+#: index.html:108
+msgid "-- Select a Country --"
+msgstr ""
+
+#: index.html:65
+msgid "-- Select a Nationality --"
+msgstr ""
+
+#: index.html:115
+msgid "-- Select a State --"
+msgstr ""
+
+#: index.html:90
+msgid "Address"
+msgstr ""
+
+#: index.html:41
+msgid "Basic informations"
+msgstr ""
+
+#: index.html:120
+msgid "City:"
+msgstr ""
+
+#: index.html:106
+msgid "Country:"
+msgstr ""
+
+#: index.html:75
+msgid "Date of birth:"
+msgstr ""
+
+#: index.html:82
+msgid "Document required."
+msgstr ""
+
+#: index.html:54
+msgid "E-mail:"
+msgstr ""
+
+#: index.html:143
+msgid "Edit data"
+msgstr ""
+
+#: index.html:57
+msgid "Email required."
+msgstr ""
+
+#: index.html:55
+msgid "Enter your email"
+msgstr ""
+
+#: index.html:80
+msgid "Enter your identity document"
+msgstr ""
+
+#: index.html:47
+msgid "Enter your name"
+msgstr ""
+
+#: index.html:96
+msgid "Enter your street name"
+msgstr ""
+
+#: index.html:100
+msgid "Enter your Zip Code"
+msgstr ""
+
+#: index.html:72
+msgid "Female"
+msgstr ""
+
+#: index.html:70
+msgid "Gender:"
+msgstr ""
+
+#: index.html:79
+msgid "Identity document:"
+msgstr ""
+
+#: index.html:58
+msgid "Invalid email! Correct format: desbrava@gmail.com"
+msgstr ""
+
+#: index.html:71
+msgid "Male"
+msgstr ""
+
+#: index.html:49
+msgid "Name required."
+msgstr ""
+
+#: index.html:50
+msgid "Name too large."
+msgstr ""
+
+#: index.html:46
+msgid "Name:"
+msgstr ""
+
+#: index.html:63
+msgid "Nationality:"
+msgstr ""
+
+#: index.html:135
+msgid "Note"
+msgstr ""
+
+#: index.html:131
+msgid "Other"
+msgstr ""
+
+#: index.html:22
+msgid "Select a language:"
+msgstr ""
+
+#: index.html:113
+msgid "State:"
+msgstr ""
+
+#: index.html:95
+msgid "Street:"
+msgstr ""
+
+#: index.html:140
+msgid "Submit"
+msgstr ""
+
+#: index.html:34
+msgid "Success!"
+msgstr ""
+
+#: index.html:31
+msgid "This is a sample form."
+msgstr ""
+
+#: index.html:30
+msgid "Welcome ladies and gentlemen!"
+msgstr ""
+
+#: index.html:35
+msgid "Your data was sent."
+msgstr ""
+
+#: index.html:102
+msgid "Zip Code required."
+msgstr ""
+
+#: index.html:99
+msgid "Zip Code:"
+msgstr ""

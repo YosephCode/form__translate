@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta tags -->
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<!-- Title -->
+	<title>Formulário</title>
+	<!-- CSS links -->
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="build/css/app.min.css">
+	<!-- Font -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body ng-app="app">
+	<article class="container" ng-controller="mainController" role="application" itemscope>
+		<article class="db-main-page">
+			<nav class="db-menu">
+				<label translate>Select a language:</label>
+				<select ng-model="lang"
+						ng-options="lang for lang in languages"
+						ng-change="changeLanguage()">
+				</select>
+			</nav>
+			<article class="db-main-content">
+				<div ng-if="!sent" class="jumbotron">
+					<p class="db-presetation" translate>Welcome ladies and gentlemen!</p>
+					<p class="db-presetation" translate>This is a sample form.</p>
+				</div>
+				<div ng-if="sent" class="jumbotron success">
+					<p class="db-presetation success" translate>Success!</p>
+					<p class="db-presetation" translate>Your data was sent.</p>
+				</div>
+				<form ng-if="!sent" name="theForm" class="db-form">
+					<h3>
+						<a class="db-title" href="#Basic" >
+							<span class="arrow-down"></span>
+							<span translate>Basic informations</span>
+						</a>
+					</h3>
+					<section id="Basic" class="db-box db-basic col-xs-12">	
+						<div class="form-group">
+							<label translate>Name:</label>
+							<input type="text" ng-model="info.name" name="name" class="form-control" placeholder="{{'Enter your name'|translate}}" ng-maxlength="25"  required/>
+							<span style="color:red;" ng-show="theForm.name.$dirty && theForm.name.$invalid">
+	                            <span ng-show="theForm.name.$error.required" translate>Name required.</span>
+	                            <span ng-show="theForm.name.$error.maxlength" translate>Name too large.</span>
+	                        </span>
+						</div>
+						<div class="form-group">
+							<label translate>E-mail:</label>
+							<input type="email" ng-model="info.email" name="email" class="form-control" placeholder="{{'Enter your email'|translate}}" ng-required="true" />
+							<span style="color:red;" ng-show="theForm.email.$dirty && theForm.email.$invalid">
+	                            <span ng-show="theForm.email.$error.required" translate>Email required.</span>
+	                            <span ng-show="theForm.email.$error.email" translate>Invalid email! Correct format: desbrava@gmail.com</span>
+	                        </span>
+						</div>
+						
+						<div class="form-group">
+							<label translate>Nationality:</label>
+							<select ng-model="info.nationality" ng-required="true">
+							    <option value="" translate>-- Select a Nationality --</option>
+							    <option ng-selected="info.nationality == {{nat}}"  name="city" ng-repeat="nat in nationalities" value="{{nat}}">{{nat}}</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label translate>Gender:</label>
+							<input type="radio" ng-model="info.gender" name="gender" value="male" ng-checked="true"/><span translate>Male</span> 
+							<input type="radio" ng-model="info.gender" name="gender" value="female" /><span translate>Female</span> 
+						</div>
+						<div class="form-group">
+							<label translate>Date of birth:</label>
+							<input type="date" ng-model="info.birth" name="birth" ng-required="true"/>
+						</div>
+						<div class="form-group">
+							<label translate>Identity document:</label>
+							<input type="text" name="cpf" ng-model="info.cpf" class="form-control" placeholder="{{'Enter your identity document'|translate}}" ui-br-cpf-mask required/>
+							<span style="color:red;" ng-show="theForm.cpf.$dirty && theForm.cpf.$invalid">
+	                            <span ng-show="theForm.cpf.$error.required" translate>Document required.</span>
+	                        </span>
+						</div>
+					</section>
+					
+					<h3>
+						<a class="db-title" href="#Address" >
+							<span class="arrow-down"></span>
+							<span translate>Address</span>
+						</a>
+					</h3>
+					<section id="Address" class="db-box db-address col-xs-12">
+						<div class="form-group">
+							<label translate>Street:</label>
+							<input type="text" ng-model="address.street" class="form-control" placeholder="{{'Enter your street name'|translate}}" />
+						</div>
+						<div class="form-group">
+							<label translate>Zip Code:</label>
+							<input type="text" ng-model="address.zip" name="zip" class="form-control" ui-br-cep-mask required placeholder="{{'Enter your Zip Code'|translate}}"/>
+							<span style="color:red;" ng-show="theForm.zip.$dirty && theForm.zip.$invalid">
+	                            <span ng-show="theForm.zip.$error.required" translate>Zip Code required.</span>
+	                        </span>
+						</div>
+						<div class="form-group">
+							<label translate>Country:</label>
+							<select ng-model="address.country" ng-required="true">
+							    <option value="" translate>-- Select a Country --</option>
+							    <option  name="country" ng-repeat="country in countries" value="{{country.code}}">{{country.name}}</option>
+							</select>
+						</div>
+						<div class="form-group" ng-hide="!address.country">
+							<label translate>State:</label>
+							<select ng-model="address.state" ng-required="true">
+							    <option value="{{address.state}}" translate>-- Select a State --</option>
+							    <option name="state" ng-repeat="state in states" value="{{state.code}}">{{state.name}}</option>
+							</select>
+						</div>
+						<div class="form-group" ng-hide="!address.state">
+							<label translate>City:</label>
+							<select ng-model="address.city" ng-required="true">
+							    <option value="" translate>-- Select a City --</option>
+							    <option name="city" ng-repeat="city in cities" value="{{city.code}}">{{city.name}}</option>
+							</select>
+						</div>
+					</section>
+					
+					<h3>
+						<a class="db-title" href="#Other">
+							<span class="arrow-down"></span>
+							<span translate>Other</span>
+						</a>
+					</h3>
+					<section id="Other" class="db-box db-other col-xs-12">
+						<label translate>Note</label>
+						<textarea  name="note" class="form-control" rows="3"></textarea>
+					</section>
+				</form>	
+				<section class="col-xs-12 db-button-submit">
+					<button type="button" ng-if="!sent" ng-click="sendData()" class="db-submit btn btn-primary btn-lg pull-right" ng-disabled="!(info.name && info.email && info.birth && info.cpf && info.nationality) 
+							&& !(address.country && address.state && address.city && address.zip)"
+							translate>Submit</button>
+					<button type="button" ng-if="sent" ng-click="sendData()" class="db-submit btn btn-info btn-lg pull-right" translate>Edit data</button>
+				</section>
+			</article>
+		</article>
+	</article>
+
+
+	<!-- Scripts -->
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="bower_components/angular-gettext/dist/angular-gettext.min.js"></script>
+	<script src="bower_components/angular-input-masks/angular-input-masks-standalone.min.js"></script>
+	<script type="text/javascript" src="build/js/app.min.js"></script>
+</body>
+</html>

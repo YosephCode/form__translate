@@ -1,0 +1,63 @@
+{
+  "en": 
+  [{
+    "nationalities": [
+      "Argentine",
+      "Brazilian",
+      "Canadian",
+      "Chilean",
+      "Colombian",
+      "Cuban",
+      "North American",
+      "Mexican",
+      "Venezuelan"
+    ],
+    "countries": [
+      {"name":"Germany", "code": "DE"},
+      {"name":"Argentina", "code": "AR"},
+      {"name": "Australia", "code": "AU"},
+      {"name":"Brazil", "code": "BR"}
+    ]
+  }],
+  "pt_BR": 
+  [{
+    "nationalities": [
+      "Argentino",
+      "Brasileiro",
+      "Canadense",
+      "Chileno",
+      "Colombiano",
+      "Cubano",
+      "Norte-americano",
+      "Mexicano",
+      "Venezuelano"
+    ],
+    "countries": [
+      {"name":"Alemanha", "code": "DE"},
+      {"name":"Argentina", "code": "AR"},
+      {"name": "Austrália", "code": "AU"},
+      {"name":"Brasil", "code": "BR"}
+    ]
+  }],
+  "es_AR": 
+  [{
+    "nationalities": [
+      "Argentina",
+      "Brasileño",
+      "Canadiense",
+      "Chilena",
+      "Colombia",
+      "Cubana",
+      "Norteamericana",
+       "Mexicano",
+       "Venezuela"
+    ],
+    "countries": [
+      {"name":"Alemania", "code": "DE"},
+      {"name":"Argentina", "code": "AR"},
+      {"name": "Austrália", "code": "AU"},
+      {"name":"Brasil", "code": "BR"}
+    ]
+  }]
+}
+  
