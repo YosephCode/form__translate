@@ -51,6 +51,7 @@
 }
 .db-main-page .db-main-content .jumbotron {
 	background-color: #E0DACA;
+  margin-bottom: 5px;
 }
 .db-main-page .db-main-content .jumbotron.success {
   background-color: #5cb85c;
@@ -86,6 +87,16 @@
     right: 10px;
     top: 14px;
 }
+.db-main-page .db-main-content .db-form .db-close{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -7px;
+    text-indent: -99999px;
+    font-size: 30px;
+    width: 100%;
+    font-weight: bold;
+}
 .db-main-page .db-main-content .db-form a:hover, .db-main-page .db-main-content .db-form a:focus {
 	text-decoration: none;
 }
@@ -106,16 +117,31 @@
     display: none;
 }
 .db-main-page .db-main-content .db-form h3 {
-	font-size: 20px;
+	 font-size: 18px;
+   position: relative;
 }
+
 .db-main-page .db-main-content .db-form .db-box#Basic:target, .db-main-page .db-main-content .db-form .db-box#Address:target, .db-main-page .db-main-content .db-form .db-box#Other:target {
 	box-shadow: 1px 1px 3px 1px;
   padding-top: 5px;
-  margin-bottom: 15px;
   display: block;
+  margin-bottom: 15px;
 }
 .db-main-page .db-main-content .db-form .db-box#Other:target {
   padding-bottom: 10px;
+}
+
+@media (min-width: 495px) {
+  .db-main-page .db-main-content .db-form h3 {
+     font-size: 20px;
+     display: inline-block;
+     margin-left: 8px;
+     margin-bottom: 20px;
+     position: relative;
+  }  
+  .db-main-page .db-main-content .db-form h3:first-child {
+     margin-left: 0px;
+  }  
 }
 
 

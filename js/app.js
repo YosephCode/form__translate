@@ -34,8 +34,11 @@ app.controller("mainController", function($scope, $http, gettextCatalog){
 	$scope.address.state = "";
 	$scope.address.city = "";
 
-	/* Boolean */
+	/* Booleans */
 	$scope.sent = false;
+	$scope.closeAd = false;
+	$scope.closeBa = false;
+	$scope.closeOt = false;
 
 	/* It's another way to bring values */
 	$http.get('js/config/nationalities.json').success (function(data){
@@ -61,6 +64,22 @@ app.controller("mainController", function($scope, $http, gettextCatalog){
 		$scope.sent = !$scope.sent;
 	};
 
+	$scope.openForm = function($event){
+		console.log($event.target.innerText);
+		if($event.target.innerText === "Address") {
+			$scope.closeAd = !$scope.closeAd;
+			$scope.closeBa =false;
+			$scope.closeOt = false;
+		}else if($event.target.innerText === "Basic informations"){
+			$scope.closeBa = !$scope.closeBa;
+			$scope.closeAd =false;
+			$scope.closeOt = false;
+		}else if($event.target.innerText === "Other"){
+			$scope.closeOt = !$scope.closeOt;
+			$scope.closeBa =false;
+			$scope.closeAd =false;
+		}
+	};
 	/* Control of nationalities and countries */
 	$scope.$watch('lang', function(newLang) {
 		switch (newLang) {

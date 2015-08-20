@@ -4,23 +4,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
-#: index.html:122
+#: index.html:124
 msgid "-- Select a City --"
 msgstr ""
 
-#: index.html:108
+#: index.html:110
 msgid "-- Select a Country --"
 msgstr ""
 
-#: index.html:65
+#: index.html:66
 msgid "-- Select a Nationality --"
 msgstr ""
 
-#: index.html:115
+#: index.html:117
 msgid "-- Select a State --"
 msgstr ""
 
-#: index.html:90
+#: index.html:91
 msgid "Address"
 msgstr ""
 
@@ -28,95 +28,95 @@ msgstr ""
 msgid "Basic informations"
 msgstr ""
 
-#: index.html:120
+#: index.html:122
 msgid "City:"
 msgstr ""
 
-#: index.html:106
+#: index.html:108
 msgid "Country:"
 msgstr ""
 
-#: index.html:75
+#: index.html:76
 msgid "Date of birth:"
 msgstr ""
 
-#: index.html:82
+#: index.html:83
 msgid "Document required."
 msgstr ""
 
-#: index.html:54
+#: index.html:55
 msgid "E-mail:"
 msgstr ""
 
-#: index.html:57
+#: index.html:58
 msgid "Email required."
 msgstr ""
 
-#: index.html:55
+#: index.html:56
 msgid "Enter your email"
 msgstr ""
 
-#: index.html:80
+#: index.html:81
 msgid "Enter your identity document"
 msgstr ""
 
-#: index.html:47
+#: index.html:48
 msgid "Enter your name"
 msgstr ""
 
-#: index.html:96
+#: index.html:98
 msgid "Enter your street name"
 msgstr ""
 
-#: index.html:100
+#: index.html:102
 msgid "Enter your Zip Code"
 msgstr ""
 
-#: index.html:72
+#: index.html:73
 msgid "Female"
 msgstr ""
 
-#: index.html:70
+#: index.html:71
 msgid "Gender:"
 msgstr ""
 
-#: index.html:79
+#: index.html:80
 msgid "Identity document:"
 msgstr ""
 
-#: index.html:58
+#: index.html:59
 msgid "Invalid email! Correct format: desbrava@gmail.com"
 msgstr ""
 
-#: index.html:71
+#: index.html:72
 msgid "Male"
 msgstr ""
 
-#: index.html:49
+#: index.html:50
 msgid "Name required."
 msgstr ""
 
-#: index.html:50
+#: index.html:51
 msgid "Name too large."
 msgstr ""
 
-#: index.html:46
+#: index.html:47
 msgid "Name:"
 msgstr ""
 
-#: index.html:63
+#: index.html:64
 msgid "Nationality:"
 msgstr ""
 
-#: index.html:143
+#: index.html:146
 msgid "New registration"
 msgstr ""
 
-#: index.html:135
+#: index.html:138
 msgid "Note"
 msgstr ""
 
-#: index.html:131
+#: index.html:133
 msgid "Other"
 msgstr ""
 
@@ -124,15 +124,15 @@ msgstr ""
 msgid "Select a language:"
 msgstr ""
 
-#: index.html:113
+#: index.html:115
 msgid "State:"
 msgstr ""
 
-#: index.html:95
+#: index.html:97
 msgid "Street:"
 msgstr ""
 
-#: index.html:140
+#: index.html:143
 msgid "Submit"
 msgstr ""
 
@@ -152,10 +152,10 @@ msgstr ""
 msgid "Your data was sent."
 msgstr ""
 
-#: index.html:102
+#: index.html:104
 msgid "Zip Code required."
 msgstr ""
 
-#: index.html:99
+#: index.html:101
 msgid "Zip Code:"
 msgstr ""

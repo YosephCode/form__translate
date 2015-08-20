@@ -12,159 +12,159 @@ msgstr ""
 "X-Generator: Poedit 1.8.4\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: index.html:122
+#: index.html:125
 msgid "-- Select a City --"
 msgstr "Selecione a cidade"
 
-#: index.html:108
+#: index.html:111
 msgid "-- Select a Country --"
 msgstr "Selecione o país"
 
-#: index.html:65
+#: index.html:67
 msgid "-- Select a Nationality --"
 msgstr "Selecione a nacionalidade"
 
-#: index.html:115
+#: index.html:118
 msgid "-- Select a State --"
 msgstr "Selecione o estado"
 
-#: index.html:90
+#: index.html:92
 msgid "Address"
 msgstr "Endereço"
 
-#: index.html:41
+#: index.html:42
 msgid "Basic informations"
 msgstr "Informações básicas"
 
-#: index.html:120
+#: index.html:123
 msgid "City:"
 msgstr "Cidade:"
 
-#: index.html:106
+#: index.html:109
 msgid "Country:"
 msgstr "País:"
 
-#: index.html:75
+#: index.html:77
 msgid "Date of birth:"
 msgstr "Data de nascimento:"
 
-#: index.html:82
+#: index.html:84
 msgid "Document required."
 msgstr "Cpf obrigatório"
 
-#: index.html:54
+#: index.html:56
 msgid "E-mail:"
 msgstr "Email:"
 
-#: index.html:57
+#: index.html:59
 msgid "Email required."
 msgstr "Email obrigatório"
 
-#: index.html:55
+#: index.html:57
 msgid "Enter your email"
 msgstr "Insira seu email"
 
-#: index.html:80
+#: index.html:82
 msgid "Enter your identity document"
 msgstr "Insira seu número de identidade"
 
-#: index.html:47
+#: index.html:49
 msgid "Enter your name"
 msgstr "Insira seu nome"
 
-#: index.html:96
+#: index.html:99
 msgid "Enter your street name"
 msgstr "Insira o nome da sua rua"
 
-#: index.html:100
+#: index.html:103
 msgid "Enter your Zip Code"
 msgstr "Insira seu CEP"
 
-#: index.html:72
+#: index.html:74
 msgid "Female"
 msgstr "Feminino"
 
-#: index.html:70
+#: index.html:72
 msgid "Gender:"
 msgstr "Gênero:"
 
-#: index.html:79
+#: index.html:81
 msgid "Identity document:"
 msgstr "Número da Identidade:"
 
-#: index.html:58
+#: index.html:60
 msgid "Invalid email! Correct format: desbrava@gmail.com"
 msgstr "Email inválido! Formato correto: desbrava@gmail.com"
 
-#: index.html:71
+#: index.html:73
 msgid "Male"
 msgstr "Masculino"
 
-#: index.html:49
+#: index.html:51
 msgid "Name required."
 msgstr "Nome obrigatório"
 
-#: index.html:50
+#: index.html:52
 msgid "Name too large."
 msgstr "Nome muito grande"
 
-#: index.html:46
+#: index.html:48
 msgid "Name:"
 msgstr "Nome:"
 
-#: index.html:63
+#: index.html:65
 msgid "Nationality:"
 msgstr "Nacionalidade:"
 
-#: index.html:143
+#: index.html:147
 msgid "New registration"
 msgstr "Novo cadastro"
 
-#: index.html:135
+#: index.html:139
 msgid "Note"
 msgstr "Observação:"
 
-#: index.html:131
+#: index.html:134
 msgid "Other"
 msgstr "Outros"
 
-#: index.html:22
+#: index.html:23
 msgid "Select a language:"
 msgstr "Selecione o idioma"
 
-#: index.html:113
+#: index.html:116
 msgid "State:"
 msgstr "Estado:"
 
-#: index.html:95
+#: index.html:98
 msgid "Street:"
 msgstr "Rua:"
 
-#: index.html:140
+#: index.html:144
 msgid "Submit"
 msgstr "Enviar"
 
-#: index.html:34
+#: index.html:35
 msgid "Success!"
 msgstr "Sucesso!"
 
-#: index.html:31
+#: index.html:32
 msgid "This is a sample form."
 msgstr "Este é um exemplo de formulário"
 
-#: index.html:30
+#: index.html:31
 msgid "Welcome ladies and gentlemen!"
 msgstr "Sejam bem vindos senhoras e senhores!"
 
-#: index.html:35
+#: index.html:36
 msgid "Your data was sent."
 msgstr "Seus dados foram enviados."
 
-#: index.html:102
+#: index.html:105
 msgid "Zip Code required."
 msgstr "CEP é obrigatório"
 
-#: index.html:99
+#: index.html:102
 msgid "Zip Code:"
 msgstr "CEP:"
 
