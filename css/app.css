@@ -119,6 +119,7 @@
 .db-main-page .db-main-content .db-form h3 {
 	 font-size: 18px;
    position: relative;
+   z-index: 1;
 }
 
 .db-main-page .db-main-content .db-form .db-box#Basic:target, .db-main-page .db-main-content .db-form .db-box#Address:target, .db-main-page .db-main-content .db-form .db-box#Other:target {
@@ -126,6 +127,7 @@
   padding-top: 5px;
   display: block;
   margin-bottom: 15px;
+  z-index: 10;
 }
 .db-main-page .db-main-content .db-form .db-box#Other:target {
   padding-bottom: 10px;
