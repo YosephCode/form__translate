@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yoseph Code",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "grunt-angular-gettext":"latest",
+    "grunt-contrib-cssmin":"latest",
+    "grunt-contrib-uglify":"latest",
+    "grunt-contrib-connect":"latest",
+    "grunt-contrib-jshint":"latest",
+    "bower": "latest"
+  }
 }
